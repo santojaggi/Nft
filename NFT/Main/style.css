@@ -1,0 +1,68 @@
+header {
+    width: 100%;
+    background: #CED1F1;
+    height: 100vh;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header img{
+    width: 99vw;
+    padding-top:10vh;
+
+}
+
+header h1, header h2{
+    margin: 0;
+    color: white;
+}
+
+header h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 8em;
+    text-align: center;
+    padding-top: 15vh;
+}
+
+header h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    text-align: center;
+}
+
+header img{
+
+}
+
+section p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 7vh;
+}
+
+section{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.Flexxy{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    padding-bottom: 5vh;
+}
+
+.Flexxy div{
+    padding: 0 2vw 0 2vw;
+}
+.Flexxy img{
+    width: 100%;
+}
+
