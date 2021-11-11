@@ -4,13 +4,18 @@ header {
     height: 100vh;
 }
 
+section{
+    background-color: white;
+}
+
+
 html, body{
     margin: 0;
     padding: 0;
 }
 
 header img{
-    width: 99vw;
+    width: 97vw;
     padding-top:10vh;
 
 }
@@ -55,8 +60,6 @@ section{
     display: flex;
     width: 100%;
     justify-content: center;
-
-    padding-bottom: 5vh;
 }
 
 .Flexxy div{
@@ -66,3 +69,139 @@ section{
     width: 100%;
 }
 
+.answer{
+    padding: 0;
+    font-size: 1em;
+}
+
+.answer2{
+    padding: 0;
+
+}
+
+#zwei{
+    display: flex;
+    justify-content: center;
+}
+
+#zwei .Flexxy{
+    width: 60%;
+    padding-top: 10vh;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1,5em;
+}
+
+#zwei p{
+    font-size: 1em;
+    padding: 0;
+}
+
+.roadmap{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.roadmap img{
+    width: 60vw;
+}
+
+footer{
+    margin-top: 10vh;
+    width: 100%;
+    background-color: #9A9A9A;
+    height: 20vh;
+}
+
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    height: 100%
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.right div{
+    padding: 0 0.5vw 0 0.5vw
+}
+
+.right img{
+    width: 60%;
+}
+.left img{
+    width: 10%;
+}
+
+footer p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 7vh;
+    font-weight: 700;
+    color: white;
+    padding: 0;
+}
+
+footer a{
+    color: white;
+}
+
+
+@media screen and (max-width:1600px) {
+    /* Bei jedem größeren Monitor kommen neue Regeln hinzu */
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    /* Bei jedem größeren Monitor kommen neue Regeln hinzu */
+    body {
+        background-color: pink;
+    }
+}
+
+@media screen and (max-width:1240px) {
+    /* Bei jedem größeren Monitor kommen neue Regeln hinzu */
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width:940px) {
+    /* Bei jedem größeren Monitor kommen neue Regeln hinzu */
+    body {
+        background-color: purple;
+    }
+}
+
+@media screen and (max-width:720px) {
+    /* Bei jedem größeren Monitor kommen neue Regeln hinzu */
+    body {
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width:480px) {
+    /* Bei jedem größeren Monitor kommen neue Regeln hinzu */
+    body {
+        background-color: brown;
+    }
+}
