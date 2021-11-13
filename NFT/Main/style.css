@@ -8,6 +8,9 @@ section{
     background-color: white;
 }
 
+::-moz-selection { background: #CED1F1; color: #fff; }
+::selection { background: #CED1F1; color: #fff; }
+
 
 html, body{
     margin: 0;
@@ -99,6 +102,10 @@ h3{
 #zwei p{
     font-size: 1em;
     padding: 0;
+}
+
+.mobile{
+    display: none;
 }
 
 .roadmap{
@@ -222,6 +229,11 @@ footer a{
         padding: 0;
     }
 
+    #zwei .Flexxy div{
+        width: 100%
+
+    }
+
 
 }
 
@@ -230,6 +242,54 @@ footer a{
     body {
         background-color: purple;
     }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: flex;
+    }
+
+    .wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer{
+        height: auto;
+        font-size: 1em;
+    }
+
+    .icon1 a, .icon2 a{
+        display: flex;
+        justify-content: center;
+    }
+
+    .left{
+        padding-top: 2vh;
+    }
+
+    .right{
+        flex-direction: column;
+        padding-top: 2vh;
+    }
+
+    .right div{
+        padding-bottom: 2vh;
+    }
+
+    p{
+        font-size: 1em!important;
+    }
+
+    strong{
+        font-size: 1.5em!important;
+    }
+
+    .textbox strong{
+        font-size: 1em!important;
+    }
 }
 
 @media screen and (max-width:720px) {
@@ -237,6 +297,7 @@ footer a{
     body {
         background-color: blue;
     }
+
 }
 
 @media screen and (max-width:480px) {
